@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <button onclick="start()" id="start">start</button>
+    <div id="number">1234</div>
+    <input autocomplete="off" type="number" id="input"></input>
+    <button onclick="submit()" id="submit">enter</button>
+    <div id="timer"></div>
+   </div>
+  
+   <div id="endScreen">
+    <div id="endText"> numbers guessed correctly: </div>
+    <div id="guessAmount">X</div>
+    <div id="endText1"> the number was</div>
+    <div id="lastNumber">X</div>
+    <button id="retry" onclick="start()">retry</button>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

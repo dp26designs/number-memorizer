@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, Courier, monospace;
+    color: blue;
+}
+
+body{
+    background-color: gray;
+}
+
+#container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10%;
+    width: 90%;
+    height: 50%;
+}
+
+#start{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#number{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    
+    font-size: 50px;
+}
+
+#input{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+
+#submit{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+}
+
+
+#timer{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+  
+    height: 10px;
+    border-radius: 5%;
+    background-color: grey;
+
+}
+
+#endScreen{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10%;
+    width: 90%;
+    height: 50%;
+}
+
+#endText{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+}
+
+#guessAmount{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+
+#endText1{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
+
+#lastNumber{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#retry{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+}
